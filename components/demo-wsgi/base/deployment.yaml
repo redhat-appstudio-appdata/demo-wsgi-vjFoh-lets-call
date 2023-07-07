@@ -31,7 +31,6 @@ spec:
         - containerPort: 8081
           name: http
           protocol: TCP
-        - containerPort: 5000
         resources:
           requests:
             cpu: 100m
