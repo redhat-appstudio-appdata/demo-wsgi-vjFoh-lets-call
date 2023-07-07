@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: demo-wsgi
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-ee-ccordoui-tenant/demo-wsgi/demo-wsgi@sha256:516d9e09c376a1854d32d85beede3ee2c584c0df4c3318804d92e35f414de684
+      - image: quay.io/redhat-user-workloads/rh-ee-ccordoui-tenant/demo-wsgi/demo-wsgi@sha256:f5ee0b5eabcdf11fa329354e5ba08684ae1b63e74aa0357ad711f8a551bc4c27
         name: my-python
         ports:
         - containerPort: 8081
