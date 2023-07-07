@@ -11,8 +11,8 @@ metadata:
   name: demo-wsgi
 spec:
   ports:
-  - port: 8081
-    targetPort: 8081
+  - port: 5000
+    targetPort: 5000
   selector:
     app.kubernetes.io/instance: demo-wsgi
 status:
