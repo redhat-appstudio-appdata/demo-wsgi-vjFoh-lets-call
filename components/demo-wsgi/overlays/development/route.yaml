@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: demo-wsgi
     app.kubernetes.io/part-of: demo-wsgi
-  name: demo-wsgiwvkc
+  name: demo-wsgijsc0
 spec:
   path: /
   port:
