@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-ee-ccordoui-tenant/demo-wsgi/demo-wsgi@sha256:cf08fa604aa549040e9c28aa9933fb007042afac3193e0a2e6b2590ea6cf3e2a
+      - image: quay.io/redhat-user-workloads/rh-ee-ccordoui-tenant/demo-wsgi/demo-wsgi@sha256:1c7e9b7793ac30bff9fcd1e79702098544407503bfddd86523f398dae7b13ee5
         name: my-python
         resources: {}
 status: {}
