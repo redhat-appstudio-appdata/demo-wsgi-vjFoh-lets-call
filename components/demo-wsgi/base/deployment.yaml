@@ -28,7 +28,7 @@ spec:
       - env:
         - name: HOST
           value: 0.0.0.0
-        image: quay.io/redhat-user-workloads/rh-ee-ccordoui-tenant/demo-wsgi/demo-wsgi@sha256:0ff6b894eed47006bced1739969fafbf8d24f3e77f06f026db2f579ca8150326
+        image: quay.io/redhat-user-workloads/rh-ee-ccordoui-tenant/demo-wsgi/demo-wsgi@sha256:58392edbd27d8dea02a71ff2edca37418b73b269b610c418d4b75591688412f1
         name: my-python
         ports:
         - containerPort: 8081
